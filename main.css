@@ -1,0 +1,101 @@
+.banner {
+	background-image: url("background.jpg");
+	width: 100%;
+	height: 300px;
+	background-size: cover;
+}
+
+.logo {
+	background-image: url("logo.png");
+    width: 80px;
+    height: 80px;
+    margin-top: 3%;
+    background-size: cover;
+    position: relative;
+    top: 20px;
+}
+
+.menu{
+	list-style: none;
+	padding: 0px;
+	text-align: center;
+	border-bottom: 1px solid #43a5c;
+	background: #ffffff;
+	position: fixed;
+	width: 100%;
+	margin-left: -8%;
+	z-index: 1000;
+}
+li{
+	display: inline-block;
+    font-family: fantasy;
+    font-size: 150%;
+    margin-right:6%;
+}
+
+.nav li:hover a{
+	background: #585858;
+}
+
+h1{
+    font-family: fantasy;
+    font-size: 300%;
+    margin-top: 2%;
+}
+h2{
+	font-family: arial;
+	font-size: 100%;
+	text-align: center;
+}
+.me{
+	text-align: center;
+	margin-top:3%;
+	margin-bottom: 2%;
+	font-size: 35px;
+	color: #9E279E;
+}
+.foto{
+	height: 70%;
+	width: 90%;
+	border:2px solid gray;
+	padding: 2%;
+	box-size:cover;
+}
+.texto{
+	margin-left:-5%;
+}
+
+.fondo{
+	background-image: url("tile1.png");
+    margin-top: -3%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+.gato{
+	width: 100%;
+	height: 100%;
+	border-radius:100%; 
+	border:2px solid #9E279E;
+	padding: 2%;
+	margin-top: 10%;
+	margin-bottom: 20%;
+}
+.fondos{
+	background-image: url("tile2.png");
+	padding:3%; 
+}
+.icono{
+	position: relative;
+    left: 29%;
+    margin: 2%;
+    width: 90px;
+    height: 90px;
+ 
+}
+.white {
+	color: white;
+}
+.things {
+	color: #9E279E;
+} 
+
